@@ -14,7 +14,8 @@ export enum ROOMS {
 export const EVENTS = {
     PRODUCT: {
         ADDED: 'PRODUCT_ADDED',
-    }
+    },
+    EMIT_ALL: 'EMIT_TO_ALL'
 };
 
 export enum SOCKET_EVENT_TYPES {
