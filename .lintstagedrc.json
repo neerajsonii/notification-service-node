@@ -1,0 +1,6 @@
+{
+    "linters": {
+        "*.ts": ["npm run lint", "prettier --write", "git add"]
+    },
+    "ignore": ["**/dist/**/*", "**/@types/**/*"]
+}

@@ -1,0 +1,12 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '## Running lint...'
+npm run lint:fix
+echo '## Lint fix done'
+echo ' ------------- '
+
+echo '## Adding changes'
+git add -A .
+
+echo '## adding changes done'
